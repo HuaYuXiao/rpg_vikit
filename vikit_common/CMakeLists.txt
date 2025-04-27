@@ -31,6 +31,7 @@ SET(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS} -O3 -fsee -fomit-frame-pointer -
 FIND_PACKAGE(OpenCV REQUIRED)
 FIND_PACKAGE(Eigen REQUIRED)
 FIND_PACKAGE(Sophus REQUIRED)
+set(Sophus_LIBRARIES "/usr/local/lib/libSophus.so")
 
 # Include dirs
 INCLUDE_DIRECTORIES(
